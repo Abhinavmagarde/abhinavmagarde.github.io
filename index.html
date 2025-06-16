@@ -66,5 +66,31 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        <section id="contact" class="container medium">
+  <header class="major">
+    <h2>Contact Me</h2>
+    <p>Have a question, idea, or opportunity? Feel free to drop a message below!</p>
+  </header>
+
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <div class="row gtr-50">
+      <div class="col-6 col-12-mobile">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="col-6 col-12-mobile">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="col-12">
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      </div>
+      <div class="col-12">
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</section>
+
     </body>
 </html>
